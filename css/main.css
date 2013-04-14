@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f7f7f9;
+	font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin: 0 0 26px;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 50px auto;
+	padding: 15px;
+	background: #fff;
+	border: solid 1px #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.gallery {
+	background: #fbfbfc;
+	border: 1px solid #f7f7f9;
+	margin: 0 0 26px;
+	padding: 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.gallery ul {
+	list-style-type: none;
+}
+
+.gallery li {
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
