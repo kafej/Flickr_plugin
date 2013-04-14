@@ -17,10 +17,8 @@
 		{
 			$('.gallery').each(function(index) {
 				var tag = $(this).data('tags');
-				var date = $(this).data('days-range');
 				$(this).attr({
-					tags: 'tag',
-					date_taken: 'date'
+					tags: 'tag'
 				})
 				.flickr({
 					limit: 10,
@@ -38,9 +36,9 @@
 </div>
 	<div class="wrapper">
 		<h1>Photo gallery</h1>
-		<div class="gallery" data-tags="batman" data-days-range="1"></div>
-		<div class="gallery" data-tags="spiderman" data-days-range="2"></div>
-		<div class="gallery" data-tags="superman" data-days-range="3"></div>
+		<div class="gallery" data-tags="batman"></div>
+		<div class="gallery" data-tags="spiderman"></div>
+		<div class="gallery" data-tags="superman"></div>
 	</div>
 </body>
 </html>
